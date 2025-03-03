@@ -12,9 +12,6 @@
     "dev": "dotenv -e .env.development.local nodemon",
     "test": "ts-mocha -p tsconfig.json src/**/*.spec.ts --reporter nyan",
     "lint": "eslint . --fix",
-    "postinstall": "husky install",
-    "prepack": "pinst --disable",
-    "postpack": "pinst --enable",
     "pretty-quick": "pretty-quick"
   },
   "dependencies": {
