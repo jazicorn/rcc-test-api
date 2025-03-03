@@ -9,6 +9,7 @@
     "dev:env": "dotenv -e .env.dev.local",
     "stage:build": "tsc",
     "stage:start": "node dist",
+    "start": "nodemon",
     "dev": "dotenv -e .env.development.local nodemon",
     "test": "ts-mocha -p tsconfig.json src/**/*.spec.ts --reporter nyan",
     "lint": "eslint . --fix",
